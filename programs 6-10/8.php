@@ -71,10 +71,10 @@ function calc($num1,$num2,$opr)
 {
 switch($opr)
 {
-case '+': echo "Sum of $num1 and $num2 is ".($num1+$num2)."<br>";break;
-case '-': echo "Difference of $num1 and $num2 is ".($num1-$num2)."<br>";break;
-case '*': echo "Product of $num1 and $num2 is ".($num1*$num2)."<br>";break;
-case '/': echo "Quotient of $num1 by $num2 is ".($num1/$num2)."<br>";break;
+case '+': echo "Sum of $num1 and $num2 is :".($num1+$num2)."<br>";break;
+case '-': echo "Difference of $num1 and $num2 is :".($num1-$num2)."<br>";break;
+case '*': echo "Product of $num1 and $num2 is :".($num1*$num2)."<br>";break;
+case '/': echo "Quotient of $num1 by $num2 is :".($num1/$num2)."<br>";break;
 }
 }
 function transpose($mat)
