@@ -14,7 +14,7 @@ foreach ($keywords as $word)
 {
     if(preg_match('/^k.*s$/i', $word))
 {
-echo "Word $word begins with k and ends s 
+echo "Word $word begins with k and end's s 
 <br>"; $list[1]=$word;
 }
 }
