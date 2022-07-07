@@ -105,7 +105,7 @@ echo "<tr><td>$usn<td>$name<td>$marks";
 }
 catch(Exception $e)
 {
-echo "DB Error";
+echo "DB Error!!";
 }
 }
 ?>
