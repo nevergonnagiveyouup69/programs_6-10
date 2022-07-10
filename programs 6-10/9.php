@@ -1,5 +1,5 @@
 <?php
-$states="Mississippi Alabama Texas Massachusetts Kansas";
+$states="Mississippi Alabama Texas Massachusetts & Kansas";
 $list=array();
 $keywords=preg_split("/\s+/",$states);
 foreach ($keywords as $word)
