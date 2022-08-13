@@ -34,7 +34,7 @@ if($r1==$r2 && $c1==$c2)
     displayMatrix($summat);
     }
     else
-    echo "Matrix Addition not possible!!";
+    echo "Matrix_Addition_not_possible!!";
     }
     function mulMatrix($f,$s)
     {
