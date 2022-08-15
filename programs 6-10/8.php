@@ -65,7 +65,7 @@ if($r1==$r2 && $c1==$c2)
     displayMatrix($prod);
     }
     else
-echo "Matrix Multiplication not possible!!";
+echo "Matrix_multiplication_not_possible!!";
 }
 function calc($num1,$num2,$opr)
 {
