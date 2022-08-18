@@ -26,11 +26,11 @@ if($r1==$r2 && $c1==$c2)
     $summat[$i][$j]=$f[$i][$j]+$s[$i][$j];
     }
     }
-    print "Matrix A:<br>";
+    print "Matrix_A:<br>";
     displayMatrix($f);
-    print "Matrix B:<br>";
+    print "Matrix_B:<br>";
     displayMatrix($s);
-    print "Sum Matrix:<br>";
+    print "Sum_Matrix:<br>";
     displayMatrix($summat);
     }
     else
